@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "Title": "\u5348\u9910",
+    "Amount": 42.50,
+    "Type": 1,
+    "Category": "\u9910\u996E",
+    "Date": "2025-11-13T00:00:00+08:00",
+    "Description": null,
+    "Account": null
+  },
+  {
+    "Id": 2,
+    "Title": "\u5DE5\u8D44\u6536\u5165",
+    "Amount": 15800.00,
+    "Type": 0,
+    "Category": "\u5DE5\u8D44",
+    "Date": "2025-11-12T00:00:00+08:00",
+    "Description": null,
+    "Account": null
+  },
+  {
+    "Id": 3,
+    "Title": "\u7F51\u8D2D\u5546\u54C1",
+    "Amount": 328.00,
+    "Type": 1,
+    "Category": "\u8D2D\u7269",
+    "Date": "2025-11-11T00:00:00+08:00",
+    "Description": null,
+    "Account": null
+  },
+  {
+    "Id": 4,
+    "Title": "\u7535\u5F71\u7968",
+    "Amount": 85.00,
+    "Type": 1,
+    "Category": "\u5A31\u4E50",
+    "Date": "2025-11-10T00:00:00+08:00",
+    "Description": null,
+    "Account": null
+  },
+  {
+    "Id": 5,
+    "Title": "\u725B\u903C",
+    "Amount": 5,
+    "Type": 0,
+    "Category": "\u9910\u996E",
+    "Date": "2025-11-13T18:39:00.182018+08:00",
+    "Description": "\u65B9\u6CFD",
+    "Account": null
+  }
+]

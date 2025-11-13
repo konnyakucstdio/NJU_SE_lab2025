@@ -1,0 +1,353 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ncoding\\self_made_tools\\MoneyManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\alltransactionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\alltransactionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\alltransactionsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\alltransactionsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\alltransactionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\alltransactionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\statisticsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\statisticsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\statisticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\statisticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\statisticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\statisticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\addtransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\addtransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\addtransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\addtransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\forms\\addtransactionform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\forms\\addtransactionform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\services\\transactionservice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\services\\transactionservice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\models\\transaction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\models\\transaction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|d:\\ncoding\\self_made_tools\\moneymanager\\moneymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45F9A9F9-1DAD-48BD-9D4F-F7A4EF985AB5}|MoneyManager\\MoneyManager.csproj|solutionrelative:moneymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AllTransactionsForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AllTransactionsForm.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\AllTransactionsForm.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AllTransactionsForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MoneyManager\\Forms\\AllTransactionsForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:29:32.752Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\MainForm.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\MainForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MoneyManager\\Forms\\MainForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:27:24.794Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AllTransactionsForm.Designer.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AllTransactionsForm.Designer.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\AllTransactionsForm.Designer.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AllTransactionsForm.Designer.cs",
+              "RelativeToolTip": "MoneyManager\\Forms\\AllTransactionsForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:29:39.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\MainForm.Designer.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\MainForm.Designer.cs",
+              "RelativeToolTip": "MoneyManager\\Forms\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:27:30.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\MainForm.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\MainForm.cs",
+              "RelativeToolTip": "MoneyManager\\Forms\\MainForm.cs",
+              "ViewState": "AgIAANcBAAAAAAAAAAAqwPEBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:57:42.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AllTransactionsForm.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AllTransactionsForm.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\AllTransactionsForm.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AllTransactionsForm.cs",
+              "RelativeToolTip": "MoneyManager\\Forms\\AllTransactionsForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:29:34.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Models\\Transaction.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Models\\Transaction.cs",
+              "RelativeToolTip": "MoneyManager\\Models\\Transaction.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:53:39.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Services\\TransactionService.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Services\\TransactionService.cs",
+              "RelativeToolTip": "MoneyManager\\Services\\TransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:53:21.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddTransactionForm.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AddTransactionForm.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\AddTransactionForm.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AddTransactionForm.cs",
+              "RelativeToolTip": "MoneyManager\\Forms\\AddTransactionForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:59:06.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatisticsForm.Designer.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\StatisticsForm.Designer.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\StatisticsForm.Designer.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\StatisticsForm.Designer.cs",
+              "RelativeToolTip": "MoneyManager\\Forms\\StatisticsForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:38:02.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StatisticsForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\StatisticsForm.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\StatisticsForm.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\StatisticsForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MoneyManager\\Forms\\StatisticsForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:54:19.732Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StatisticsForm.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\StatisticsForm.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\StatisticsForm.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\StatisticsForm.cs",
+              "RelativeToolTip": "MoneyManager\\Forms\\StatisticsForm.cs",
+              "ViewState": "AgIAAGMBAAAAAAAAAAAqwH0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T08:01:50.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Program.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Program.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Program.cs",
+              "RelativeToolTip": "MoneyManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:51:42.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddTransactionForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AddTransactionForm.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\AddTransactionForm.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AddTransactionForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MoneyManager\\Forms\\AddTransactionForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:36:19.02Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddTransactionForm.Designer.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AddTransactionForm.Designer.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Forms\\AddTransactionForm.Designer.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Forms\\AddTransactionForm.Designer.cs",
+              "RelativeToolTip": "MoneyManager\\Forms\\AddTransactionForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T08:07:12.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TransactionService.Designer.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Services\\TransactionService.Designer.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Services\\TransactionService.Designer.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Services\\TransactionService.Designer.cs",
+              "RelativeToolTip": "MoneyManager\\Services\\TransactionService.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:37:21.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Transaction.Designer.cs",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Models\\Transaction.Designer.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Models\\Transaction.Designer.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Models\\Transaction.Designer.cs",
+              "RelativeToolTip": "MoneyManager\\Models\\Transaction.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:49:41.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Transaction.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Models\\Transaction.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Models\\Transaction.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MoneyManager\\Models\\Transaction.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:28:56.658Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Program.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Program.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Program.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MoneyManager\\Program.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:39:11.995Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TransactionService.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "MoneyManager\\Services\\TransactionService.cs",
+              "ToolTip": "D:\\Ncoding\\self_made_tools\\MoneyManager\\MoneyManager\\Services\\TransactionService.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MoneyManager\\Services\\TransactionService.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:37:18.375Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
