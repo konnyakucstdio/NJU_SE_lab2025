@@ -4,7 +4,7 @@
 
 ## 🚀 功能特性
 
-- 📊 **收支记录** - 手动记录收入和支出 （扫描和关联待完成）
+- 📊 **收支记录** - 手动记录收入和支出
 - 📈 **数据统计** - 收支分类统计和图表展示
 - 💰 **预算管理** - 设置和管理月度预算
 - 🏦 **多账户管理** - 支持支付宝、微信、银行卡等账户 （待完成）
@@ -38,6 +38,7 @@
 5. 点击 `生成` → `生成解决方案` 或按 `Ctrl+Shift+B`
 
 ## 📁 项目结构
+```
 MoneyManager/
 ├── Forms/ # 窗体文件
 │ ├── MainForm.cs # 主界面
@@ -50,17 +51,17 @@ MoneyManager/
 │ └── TransactionService.cs
 ├── Program.cs # 程序入口
 └── MoneyManager.csproj # 项目文件
+```
 
 text
 
 ## 📥 下载和安装
 
-### 方法一：使用预编译版本（推荐）
-1. 克隆本仓库到本地
-2. 进入 `bin/Release/` 目录
-3. 运行 `MoneyManager.exe`
-
-如果 `bin/Release/` 目录不存在，请使用方法二从源码编译。
+### 方法一：使用预编译版本
+1. 前往 [Releases](../../releases) 页面
+2. 下载最新版本的 `MoneyManager.zip`
+3. 解压到任意目录
+4. 运行 `MoneyManager.exe`
 
 ### 方法二：从源码编译
 ```bash
