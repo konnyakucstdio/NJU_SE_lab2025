@@ -1,0 +1,32 @@
+name: .NET Build and Test
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+env:
+  DOTNET_VERSION: '4.8' # 根据你的项目实际使用的.NET版本调整
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest # 由于你的项目是 .NET Framework，建议在Windows环境下运行
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+
+    - name: Run Unit Tests
+      run: dotnet test --no-restore --verbosity normal
