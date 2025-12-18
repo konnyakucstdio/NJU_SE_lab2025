@@ -32,42 +32,11 @@ jobs:
 
     - name: Build
       run: |
-        # 1. 使用 vswhere 工具定位 MSBuild
-        $vswherePath = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
-        
-        if (-not (Test-Path $vswherePath)) {
-            Write-Error "未找到 vswhere.exe，无法定位 Visual Studio。"
-            exit 1
-        }
-        
-        # 获取最新版 Visual Studio 的安装路径
-        $vsInstallPath = & $vswherePath -latest -requires Microsoft.Component.MSBuild -property installationPath
-        if (-not $vsInstallPath) {
-            Write-Error "未找到已安装的包含 MSBuild 的 Visual Studio。"
-            exit 1
-        }
-        
-        # 构造 MSBuild 路径 (优先使用 Current 版本)
-        $msbuildPath = Join-Path $vsInstallPath "MSBuild\Current\Bin\MSBuild.exe"
-        if (-not (Test-Path $msbuildPath)) {
-            # 如果 Current 不存在，尝试 17.0 版本 (VS 2022)
-            $msbuildPath = Join-Path $vsInstallPath "MSBuild\17.0\Bin\MSBuild.exe"
-        }
-        
-        if (-not (Test-Path $msbuildPath)) {
-            Write-Error "在 Visual Studio 安装路径中未找到 MSBuild.exe。"
-            exit 1
-        }
-        
-        Write-Host "已找到 MSBuild: $msbuildPath"
-        
-        # 2. 构建解决方案
-        Write-Host "开始构建解决方案..."
-        & $msbuildPath MoneyManager.sln /p:Configuration=Debug /verbosity:minimal
-        
-        # 3. 运行测试
-        Write-Host "开始运行单元测试..."
-        & $msbuildPath .\MoneyManager.Tests\MoneyManager.Tests.csproj /p:Configuration=Debug /t:VSTest
+        Write-Host “开始运行单元测试 (使用 dotnet test)...”
+        # 切换到测试项目目录
+        cd MoneyManager.Tests
+        # 运行测试
+        dotnet test --configuration Debug --verbosity normal
 
     - name: Run Unit Tests
       run: |
