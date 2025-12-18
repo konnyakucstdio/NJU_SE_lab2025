@@ -31,9 +31,26 @@ jobs:
       run: nuget restore MoneyManager.sln  # 使用 nuget 为 .NET Framework 项目恢复包
 
     - name: Build
-      shell: cmd
       run: |
-        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" MoneyManager.sln /p:Configuration=Debug
+        # 1. 打印当前路径和系统信息
+        Write-Host "当前目录:" (Get-Location)
+        Write-Host "系统 PATH 环境变量:"
+        $env:PATH -split ';' | Select-String -Pattern 'MSBuild|Visual Studio' | ForEach-Object { Write-Host "  $_" }
+
+        # 2. 测试文件是否存在（多种方法）
+        $testPath = 'C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe'
+        Write-Host "`n测试路径: $testPath"
+        Write-Host "Test-Path 结果:" (Test-Path $testPath)
+        Write-Host "Get-Item 结果:"; Get-Item $testPath -ErrorAction SilentlyContinue
+
+        # 3. 尝试直接运行（不带 &）
+        Write-Host "`n尝试直接运行..."
+        & $testPath --version
+        if ($LASTEXITCODE -eq 0) {
+            Write-Host "成功！"
+        } else {
+            Write-Host "失败，退出码: $LASTEXITCODE"
+        }
 
     - name: Run Unit Tests
       run: |
