@@ -44,6 +44,24 @@ jobs:
 
     - name: Run Unit Tests
       run: |
-        Write-Host "开始运行单元测试 (使用 dotnet test)..."
-        # 直接对测试项目运行dotnet test，无需切换目录
-        dotnet test .\MoneyManager.Tests\MoneyManager.Tests.csproj --configuration Debug --verbosity normal
+        Write-Host “开始运行单元测试...”
+        
+        # 1. 首先，找到 vstest.console.exe（测试运行器）
+        # 它通常与 Visual Studio 一起安装
+        $vstestPath = (Get-ChildItem -Path “C:\Program Files\Microsoft Visual Studio” -Recurse -Filter “vstest.console.exe” -ErrorAction SilentlyContinue | Select-Object -First 1).FullName
+        
+        if (-not $vstestPath) {
+            # 如果没找到，尝试另一个常见路径
+            $vstestPath = “C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\TestPlatform\vstest.console.exe”
+        }
+        
+        Write-Host “找到测试运行器: $vstestPath”
+        
+        # 2. 指定测试DLL的路径（根据你的构建配置 Debug/Release）
+        $testDllPath = “.\MoneyManager.Tests\bin\Debug\MoneyManager.Tests.dll”
+        
+        # 3. 运行测试
+        & $vstestPath $testDllPath /Logger:trx /TestAdapterPath:“.\MoneyManager.Tests\bin\Debug”
+        
+        # 注意：如果测试失败，vstest.console.exe 会返回非零退出码，导致步骤失败
+        # 这符合CI的预期行为
