@@ -32,25 +32,42 @@ jobs:
 
     - name: Build
       run: |
-        # 1. 打印当前路径和系统信息
-        Write-Host "当前目录:" (Get-Location)
-        Write-Host "系统 PATH 环境变量:"
-        $env:PATH -split ';' | Select-String -Pattern 'MSBuild|Visual Studio' | ForEach-Object { Write-Host "  $_" }
-
-        # 2. 测试文件是否存在（多种方法）
-        $testPath = 'C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe'
-        Write-Host "`n测试路径: $testPath"
-        Write-Host "Test-Path 结果:" (Test-Path $testPath)
-        Write-Host "Get-Item 结果:"; Get-Item $testPath -ErrorAction SilentlyContinue
-
-        # 3. 尝试直接运行（不带 &）
-        Write-Host "`n尝试直接运行..."
-        & $testPath --version
-        if ($LASTEXITCODE -eq 0) {
-            Write-Host "成功！"
-        } else {
-            Write-Host "失败，退出码: $LASTEXITCODE"
+        # 1. 使用 vswhere 工具定位 MSBuild
+        $vswherePath = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
+        
+        if (-not (Test-Path $vswherePath)) {
+            Write-Error "未找到 vswhere.exe，无法定位 Visual Studio。"
+            exit 1
         }
+        
+        # 获取最新版 Visual Studio 的安装路径
+        $vsInstallPath = & $vswherePath -latest -requires Microsoft.Component.MSBuild -property installationPath
+        if (-not $vsInstallPath) {
+            Write-Error "未找到已安装的包含 MSBuild 的 Visual Studio。"
+            exit 1
+        }
+        
+        # 构造 MSBuild 路径 (优先使用 Current 版本)
+        $msbuildPath = Join-Path $vsInstallPath "MSBuild\Current\Bin\MSBuild.exe"
+        if (-not (Test-Path $msbuildPath)) {
+            # 如果 Current 不存在，尝试 17.0 版本 (VS 2022)
+            $msbuildPath = Join-Path $vsInstallPath "MSBuild\17.0\Bin\MSBuild.exe"
+        }
+        
+        if (-not (Test-Path $msbuildPath)) {
+            Write-Error "在 Visual Studio 安装路径中未找到 MSBuild.exe。"
+            exit 1
+        }
+        
+        Write-Host "已找到 MSBuild: $msbuildPath"
+        
+        # 2. 构建解决方案
+        Write-Host "开始构建解决方案..."
+        & $msbuildPath MoneyManager.sln /p:Configuration=Debug /verbosity:minimal
+        
+        # 3. 运行测试
+        Write-Host "开始运行单元测试..."
+        & $msbuildPath MoneyManager.sln /p:Configuration=Debug /t:VSTest
 
     - name: Run Unit Tests
       run: |
