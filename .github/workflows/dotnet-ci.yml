@@ -67,7 +67,7 @@ jobs:
         
         # 3. 运行测试
         Write-Host "开始运行单元测试..."
-        & $msbuildPath MoneyManager.sln /p:Configuration=Debug /t:VSTest
+        & $msbuildPath .\MoneyManager.Tests\MoneyManager.Tests.csproj /p:Configuration=Debug /t:VSTest
 
     - name: Run Unit Tests
       run: |
