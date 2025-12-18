@@ -11,22 +11,30 @@ env:
 
 jobs:
   build-and-test:
-    runs-on: windows-latest # 由于你的项目是 .NET Framework，建议在Windows环境下运行
+    runs-on: windows-latest # 关键：必须在 Windows 环境运行
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: ${{ env.DOTNET_VERSION }}
+    # 重要：删除或注释掉原来的 "Setup .NET" 步骤
+    # - name: Setup .NET
+    #   uses: actions/setup-dotnet@v3
+    #   with:
+    #     dotnet-version: ${{ env.DOTNET_VERSION }}
 
-    - name: Restore dependencies
-      run: dotnet restore
+    - name: Verify .NET Framework (Info)
+      run: |
+        reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full" /v Release
+
+    - name: Restore dependencies (NuGet)
+      run: nuget restore MoneyManager.sln  # 使用 nuget 为 .NET Framework 项目恢复包
 
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: msbuild MoneyManager.sln /p:Configuration=Release
 
     - name: Run Unit Tests
-      run: dotnet test --no-restore --verbosity normal
+      run: |
+        # 使用 vstest.console.exe 运行测试项目
+        # 路径可能需要根据你的项目结构调整
+        & "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\TestPlatform\vstest.console.exe" .\MoneyManager.Tests\bin\Debug\MoneyManager.Tests.dll
