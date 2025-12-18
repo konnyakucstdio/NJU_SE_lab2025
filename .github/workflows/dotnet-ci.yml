@@ -32,14 +32,18 @@ jobs:
 
     - name: Build
       run: |
-        Write-Host “开始运行单元测试 (使用 dotnet test)...”
-        # 切换到测试项目目录
-        cd MoneyManager.Tests
-        # 运行测试
-        dotnet test --configuration Debug --verbosity normal
+        # 这是真正的构建步骤，使用我们之前成功的vswhere+MSBuild脚本
+        $vswherePath = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
+        $vsInstallPath = & $vswherePath -latest -requires Microsoft.Component.MSBuild -property installationPath
+        $msbuildPath = Join-Path $vsInstallPath "MSBuild\Current\Bin\MSBuild.exe"
+        if (-not (Test-Path $msbuildPath)) {
+            $msbuildPath = Join-Path $vsInstallPath "MSBuild\17.0\Bin\MSBuild.exe"
+        }
+        Write-Host "已找到 MSBuild: $msbuildPath"
+        & $msbuildPath MoneyManager.sln /p:Configuration=Debug /verbosity:minimal
 
     - name: Run Unit Tests
       run: |
-        # 使用 vstest.console.exe 运行测试项目
-        # 路径可能需要根据你的项目结构调整
-        & "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\TestPlatform\vstest.console.exe" .\MoneyManager.Tests\bin\Debug\MoneyManager.Tests.dll
+        Write-Host "开始运行单元测试 (使用 dotnet test)..."
+        # 直接对测试项目运行dotnet test，无需切换目录
+        dotnet test .\MoneyManager.Tests\MoneyManager.Tests.csproj --configuration Debug --verbosity normal
